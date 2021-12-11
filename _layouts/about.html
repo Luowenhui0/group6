@@ -1,0 +1,26 @@
+---
+---
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "header">
+            <nav>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/creators">Art&Stories</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+        <div id = "content">
+            {{ content }}
+        </div>
+        <div id = "footer">
+            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for assessment by <a href = "https://github.com/daniel-allington">Goup 6</a> in 2021</p>
+        </div>
+    </div>
+</body>
